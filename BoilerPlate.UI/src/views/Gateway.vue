@@ -60,7 +60,6 @@ export default defineComponent({
       store
         .dispatch(GatewayCalloutActions.LoadInstance, { instanceId: loginId.value })
         .then(async (response: RoutingActionResult) => {
-          console.log(response)
           if (!response) {
             alert('No matching dealer is found in the record.\nPlease enter the login ID as either 111 or 999.')
             throw new Error('GatewayCalloutActions.LoadInstance returned false')

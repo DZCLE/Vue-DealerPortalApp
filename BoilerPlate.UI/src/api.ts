@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import Axios, { AxiosInstance } from 'axios'
 import useInterceptors from './interceptors'
 export interface ApiInterface {
@@ -7,7 +8,7 @@ export interface ApiInterface {
 const api: ApiInterface = {
   standard:
     Axios.create({
-      baseURL: `${process.env.VUE_APP_EXTERNAL_PROXY_URL}`,
+      baseURL: `http://localhost:31881/`,
       headers: { 'content-type': 'application/json' }
     })
 }

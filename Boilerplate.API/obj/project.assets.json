@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\i824286\\Documents\\Boilerplate\\Boilerplate.API\\Boilerplate.csproj",
+      "projectUniqueName": "C:\\Users\\i824286\\Downloads\\Temp\\DealerPortalApp\\Boilerplate.API\\Boilerplate.csproj",
       "projectName": "Boilerplate",
-      "projectPath": "C:\\Users\\i824286\\Documents\\Boilerplate\\Boilerplate.API\\Boilerplate.csproj",
+      "projectPath": "C:\\Users\\i824286\\Downloads\\Temp\\DealerPortalApp\\Boilerplate.API\\Boilerplate.csproj",
       "packagesPath": "C:\\Users\\i824286\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\i824286\\Documents\\Boilerplate\\Boilerplate.API\\obj\\",
+      "outputPath": "C:\\Users\\i824286\\Downloads\\Temp\\DealerPortalApp\\Boilerplate.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
