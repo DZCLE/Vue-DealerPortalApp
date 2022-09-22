@@ -1,4 +1,4 @@
-module.exports = {
+npmmodule.exports = {
     "env": {
         "browser": true,
         "es6": true
@@ -12,6 +12,7 @@ module.exports = {
         "SharedArrayBuffer": "readonly"
     },
     "parser": "vue-eslint-parser",
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module"
