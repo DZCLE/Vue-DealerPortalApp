@@ -1,0 +1,37 @@
+.legacy-label {
+  height: 24px;
+  line-height: 100%;
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+  /* IE10+ CSS styles go here */
+  .v-text-field--outlined.v-input--dense .v-label {
+    margin-top: -10px !important;
+  }
+
+  .vue__time-picker input.display-time {
+    padding: 0 0.5em;
+  }
+}
+
+small {
+  font-size: 70%
+}
+
+.v-input input {
+  padding: 0;
+}
+
+.v-text-field--outlined.v-input--dense.v-text-field--outlined>.v-input__control>.v-input__slot {
+  min-height: 24px !important;
+}
+
+.v-text-field--enclosed.v-input--dense:not(.v-text-field--solo).v-text-field--outlined .v-input__append-inner {
+  margin-top: 0;
+}
+
+.v-select.v-text-field--outlined:not(.v-text-field--single-line).v-input--dense .v-select__selections {
+  padding: 0
+}

@@ -1,0 +1,15 @@
+.actions {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.actions button {
+  margin: 0 15px 0 15px;
+}
+
+.boilerplate-button {
+  border-radius: 0 !important;
+  text-transform: none !important;
+  min-width: 85px !important;
+}

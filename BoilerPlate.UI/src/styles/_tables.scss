@@ -1,0 +1,77 @@
+// src/styles/_tables.scss
+
+// Header
+.v-data-table>.v-data-table__wrapper>table>tbody>tr>td,
+.v-data-table>.v-data-table__wrapper>table>tfoot>tr>td,
+.v-data-table>.v-data-table__wrapper>table>thead>tr>td {
+  font-size: .875rem;
+  height: auto !important;
+}
+
+// Body
+.v-data-table th {
+  background-color: $boilerplate-blue;
+  color: white !important;
+  height: auto !important;
+}
+
+.mdi-arrow-up::before {
+  color: white
+}
+
+.v-data-table tr:nth-of-type(odd) {
+  background-color: $boilerplate-gray-lighter;
+}
+
+.v-data-table tbody tr.v-data-table__expanded.v-data-table__expanded__content {
+  box-shadow: none;
+}
+
+.v-tabs-slider-wrapper {
+  color: white;
+}
+
+.v-tab {
+  text-transform: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: $boilerplate-gray-inactive;
+  color: white !important;
+  height: 1.75em;
+  display: flex;
+  align-self: flex-end;
+}
+
+.v-tab--active {
+  background-color: $boilerplate-dark-gray-background;
+}
+
+.v-data-footer {
+  justify-content: flex-start !important;
+}
+
+.v-data-footer__select {
+  order: -1;
+  flex-basis: 37.5% !important;
+  justify-content: flex-start !important;
+}
+
+.v-data-footer__icons-before {
+  order: -1;
+}
+
+.scrollable {
+  overflow: auto;
+  max-height: 600px;
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+  /* IE10+ CSS styles go here */
+  .dataTable .v-input__slot {
+    max-width: 3.5em;
+  }
+}
