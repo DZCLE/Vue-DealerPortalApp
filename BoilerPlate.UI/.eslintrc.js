@@ -1,25 +1,23 @@
-npmmodule.exports = {
-    "env": {
-        "browser": true,
-        "es6": true
+module.exports = {
+    root: true,
+    env: {
+      node: true,
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/eslint-recommended"
+    extends: ['plugin:vue/essential', '@vue/standard', '@vue/typescript/recommended', 'prettier'],
+    parserOptions: {
+      ecmaVersion: 2020,
+    },
+    rules: {
+      'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+      'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    },
+    overrides: [
+      {
+        files: ['**/__tests__/*.{j,t}s?(x)', '**/tests/unit/**/*.spec.{j,t}s?(x)'],
+        env: {
+          jest: true,
+        },
+      },
     ],
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
-    },
-    "parser": "vue-eslint-parser",
-    "parser": "babel-eslint",
-    "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "@typescript-eslint"
-    ],
-    "rules": {
-    }
-};
+  }
+  
