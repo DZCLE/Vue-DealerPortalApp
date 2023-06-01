@@ -1,4 +1,4 @@
-# Dealership Portal App
+# Dealership Portal App - Vue.js
 
 ## Project setup
 
